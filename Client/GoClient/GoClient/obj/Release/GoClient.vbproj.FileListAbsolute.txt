@@ -1,0 +1,15 @@
+\\psf\Home\Documents\GitHub\XMLSender\Client\GoClient\GoClient\bin\Release\GoClient.exe
+\\psf\Home\Documents\GitHub\XMLSender\Client\GoClient\GoClient\bin\Release\GoClient.pdb
+\\psf\Home\Documents\GitHub\XMLSender\Client\GoClient\GoClient\bin\Release\GoClient.xml
+\\psf\Home\Documents\GitHub\XMLSender\Client\GoClient\GoClient\bin\Release\Interop.MSWinsockLib.dll
+\\psf\Home\Documents\GitHub\XMLSender\Client\GoClient\GoClient\bin\Release\AxInterop.MSWinsockLib.dll
+\\psf\Home\Documents\GitHub\XMLSender\Client\GoClient\GoClient\obj\Release\ResolveAssemblyReference.cache
+\\psf\Home\Documents\GitHub\XMLSender\Client\GoClient\GoClient\obj\Release\Interop.MSWinsockLib.dll
+\\psf\Home\Documents\GitHub\XMLSender\Client\GoClient\GoClient\obj\Release\AxInterop.MSWinsockLib.dll
+\\psf\Home\Documents\GitHub\XMLSender\Client\GoClient\GoClient\obj\Release\GoClient.vbproj.ResolveComReference.cache
+\\psf\Home\Documents\GitHub\XMLSender\Client\GoClient\GoClient\obj\Release\GoClient.frmMain.resources
+\\psf\Home\Documents\GitHub\XMLSender\Client\GoClient\GoClient\obj\Release\GoClient.Resources.resources
+\\psf\Home\Documents\GitHub\XMLSender\Client\GoClient\GoClient\obj\Release\GoClient.vbproj.GenerateResource.Cache
+\\psf\Home\Documents\GitHub\XMLSender\Client\GoClient\GoClient\obj\Release\GoClient.exe
+\\psf\Home\Documents\GitHub\XMLSender\Client\GoClient\GoClient\obj\Release\GoClient.xml
+\\psf\Home\Documents\GitHub\XMLSender\Client\GoClient\GoClient\obj\Release\GoClient.pdb
