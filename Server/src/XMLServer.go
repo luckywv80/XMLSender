@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"net"
 	"os"
-	"time"
 )
 
 type info struct {
@@ -19,7 +18,7 @@ func resolveXML(buf []byte, i *info) error {
 }
 
 func handleClient(conn net.Conn) {
-	conn.SetReadDeadline(time.Now().Add(5 * time.Minute))
+	//conn.SetReadDeadline(time.Now().Add(5 * time.Minute))
 	defer conn.Close()
 	buf := make([]byte, 65535)
 	var i info

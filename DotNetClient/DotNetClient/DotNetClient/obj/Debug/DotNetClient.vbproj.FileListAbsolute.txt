@@ -1,0 +1,15 @@
+\\psf\Home\Documents\GitHub\XMLSender\DotNetClient\DotNetClient\DotNetClient\obj\Debug\Interop.MSWinsockLib.dll
+\\psf\Home\Documents\GitHub\XMLSender\DotNetClient\DotNetClient\DotNetClient\obj\Debug\AxInterop.MSWinsockLib.dll
+\\psf\Home\Documents\GitHub\XMLSender\DotNetClient\DotNetClient\DotNetClient\obj\Debug\DotNetClient.vbproj.ResolveComReference.cache
+\\psf\Home\Documents\GitHub\XMLSender\DotNetClient\DotNetClient\DotNetClient\obj\Debug\GoClient.exe
+\\psf\Home\Documents\GitHub\XMLSender\DotNetClient\DotNetClient\DotNetClient\obj\Debug\GoClient.xml
+\\psf\Home\Documents\GitHub\XMLSender\DotNetClient\DotNetClient\DotNetClient\obj\Debug\GoClient.pdb
+\\psf\Home\Documents\GitHub\XMLSender\DotNetClient\DotNetClient\DotNetClient\bin\Debug\GoClient.exe
+\\psf\Home\Documents\GitHub\XMLSender\DotNetClient\DotNetClient\DotNetClient\bin\Debug\GoClient.pdb
+\\psf\Home\Documents\GitHub\XMLSender\DotNetClient\DotNetClient\DotNetClient\bin\Debug\GoClient.xml
+\\psf\Home\Documents\GitHub\XMLSender\DotNetClient\DotNetClient\DotNetClient\bin\Debug\Interop.MSWinsockLib.dll
+\\psf\Home\Documents\GitHub\XMLSender\DotNetClient\DotNetClient\DotNetClient\bin\Debug\AxInterop.MSWinsockLib.dll
+\\psf\Home\Documents\GitHub\XMLSender\DotNetClient\DotNetClient\DotNetClient\obj\Debug\ResolveAssemblyReference.cache
+\\psf\Home\Documents\GitHub\XMLSender\DotNetClient\DotNetClient\DotNetClient\obj\Debug\GoClient.frmMain.resources
+\\psf\Home\Documents\GitHub\XMLSender\DotNetClient\DotNetClient\DotNetClient\obj\Debug\GoClient.Resources.resources
+\\psf\Home\Documents\GitHub\XMLSender\DotNetClient\DotNetClient\DotNetClient\obj\Debug\DotNetClient.vbproj.GenerateResource.Cache
