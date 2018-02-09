@@ -4,6 +4,7 @@ import (
 	"encoding/xml"
 	"fmt"
 	"net"
+	"time"
 )
 
 type info struct {
@@ -12,7 +13,7 @@ type info struct {
 }
 
 func sendInfo(conn net.Conn, i *info) bool {
-	if buf, err := xml.Marshal(i); err != nil {
+	if buf, err := xml.Marshal(i); err == nil {
 		conn.Write(buf)
 		return true
 	}
@@ -20,15 +21,15 @@ func sendInfo(conn net.Conn, i *info) bool {
 }
 func main() {
 	i := info{MyName: "Mr.Go", Phone: "1199"}
-
-	conn, err := net.Dial("tcp", "127.0.0.1:7777")
-	if err != nil {
-		for iCount := 0; iCount < 5; iCount++ {
-			sendInfo(conn, &i)
-			fmt.Printf("Send to server %03d.\n", iCount)
+	for iCount := 0; iCount < 5; iCount++ {
+		conn, err := net.Dial("tcp", "127.0.0.1:7777")
+		if err != nil {
+			panic(err.Error())
 		}
-	} else {
-		panic(err.Error())
-	}
 
+		success := sendInfo(conn, &i)
+		fmt.Printf("Send to server %03d. %s\n", iCount, success)
+		time.Sleep(time.Second)
+		conn.Close()
+	}
 }
