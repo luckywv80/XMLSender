@@ -42,7 +42,7 @@ func main() {
 		conn, err := listener.Accept()
 		fmt.Println("Test connection...")
 		if err != nil {
-			continue
+			panic("Error accept:" + err.Error())
 		}
 		fmt.Println("Client connect.", conn.RemoteAddr())
 		go handleClient(conn)

@@ -1,6 +1,7 @@
 package main
 
 import (
+	"time"
 	"encoding/xml"
 	"fmt"
 	"net"
@@ -23,12 +24,14 @@ func main() {
 
 	conn, err := net.Dial("tcp", "127.0.0.1:7777")
 	if err != nil {
-		for iCount := 0; iCount < 5; iCount++ {
-			sendInfo(conn, &i)
-			fmt.Printf("Send to server %03d.\n", iCount)
-		}
-	} else {
 		panic(err.Error())
+	}
+
+	defer conn.Close()
+	for iCount := 0; iCount < 5; iCount++ {
+		sendInfo(conn, &i)
+		fmt.Printf("Send to server %03d.\n", iCount)
+		time.Sleep(time.Second)
 	}
 
 }
